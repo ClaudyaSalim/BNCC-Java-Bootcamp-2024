@@ -1,7 +1,7 @@
 # BNCC-Java-Bootcamp-2024
 
 ## Cara Download Project
-Bisa dengan ketik code berikut di **terminal / command prompt**
+Bisa dengan ketik command berikut di **terminal / command prompt**
 ```
 git clone https://github.com/ClaudyaSalim/BNCC-Java-Bootcamp-2024.git
 ```
