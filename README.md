@@ -1,11 +1,19 @@
 # BNCC-Java-Bootcamp-2024
 
 ## Cara Download Project
-Bisa dengan ketik command berikut di **terminal / command prompt**
+### Dengan Git
+1. Install git di https://git-scm.com/downloads
+2. Sign up ke github.com
+3. Ketik command berikut di **terminal / command prompt**
 ```
 git clone https://github.com/ClaudyaSalim/BNCC-Java-Bootcamp-2024.git
 ```
-atau dengan klik tombol **Code -> Download ZIP**
+4. Masuk ke folder **BNCC-Java-Bootcamp-2024**
+5. Kalau ada update berikutnya, tinggal ketik **git pull**
+
+### Download ZIP
+Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kalian harus **download lagi**
+
 
 ## Cara Buka Project
 1. Buka workspace Eclipse dari folder project tersebut
