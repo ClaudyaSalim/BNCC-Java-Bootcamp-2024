@@ -38,6 +38,7 @@ public class Main {
 		// String and char
 		char huruf = '$'; // 1 karakter
 		String kata = "Java " + "Programming"; // beberapa karakter 
+		String kataConcat = kata.concat("Session"); // alternatif utk concat
 		System.out.println(huruf);
 		System.out.println(kata);
 		System.out.println(kata.charAt(0));
@@ -91,6 +92,14 @@ public class Main {
 		System.out.println("Loop For");
 		for(int i=0; i<10; i++) {
 			System.out.println(i);
+		}
+		int [] arrAngka = {1, 2, 10, 35, 8};
+		// for each
+		for(int angka:arrAngka) {
+			System.out.println(angka);
+		}
+		for(int i=0; i<5; i++) {
+			System.out.println(arrAngka[i]);
 		}
 		
 		// 2. While
