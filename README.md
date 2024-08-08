@@ -17,10 +17,11 @@
       ```
 4. Masuk ke folder **BNCC-Java-Bootcamp-2024** dan buka projectnya
 5. Kalau ada update berikutnya, tinggal ketik **git pull**
+   > Pastikan saat kalian ketik "git pull", kalian berada di folder BNCC-Java-Bootcamp-2024
+   
    ![image](https://github.com/user-attachments/assets/fc0e6e1a-b5ac-4f46-82de-b225bd9198b2)
 
    ![image](https://github.com/user-attachments/assets/d5108867-4c64-42bb-bf10-1900a44d54d0)
-   > Pastikan saat kalian ketik "git pull", kalian berada di folder BNCC-Java-Bootcamp-2024
 
 
 ### 2. Download ZIP
