@@ -31,4 +31,5 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 
 ## Link PPT
 PPT Pertemuan 1: https://www.figma.com/deck/fUA2k2ZzoB1mY5hTd30bZF/Pertemuan-1?node-id=1-59
+
 PPT Pertemuan 2: https://www.figma.com/deck/poebgcon9qUEYtcJx3iTGc/Pertemuan-2?node-id=1-12
