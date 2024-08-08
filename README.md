@@ -5,9 +5,15 @@
 1. Install git di https://git-scm.com/downloads
 2. Sign up ke www.github.com
 3. Ketik command berikut di **terminal / command prompt**
-```
-git clone https://github.com/ClaudyaSalim/BNCC-Java-Bootcamp-2024.git
-```
+   1. Buat setup Git pertama kali dengan akun Github
+      ```
+      git config --global user.name “Username”
+      git config --global user.email “Email”
+      ```
+   2. Buat download project Bootcamp
+      ```
+      git clone https://github.com/ClaudyaSalim/BNCC-Java-Bootcamp-2024.git
+      ```
 4. Masuk ke folder **BNCC-Java-Bootcamp-2024**
 5. Kalau ada update berikutnya, tinggal ketik **git pull**
 
@@ -25,3 +31,4 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 
 ## Link PPT
 PPT Pertemuan 1: https://www.figma.com/deck/fUA2k2ZzoB1mY5hTd30bZF/Pertemuan-1?node-id=1-59
+PPT Pertemuan 2: https://www.figma.com/deck/poebgcon9qUEYtcJx3iTGc/Pertemuan-2?node-id=1-12
