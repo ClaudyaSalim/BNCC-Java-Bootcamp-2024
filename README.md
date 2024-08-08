@@ -10,7 +10,7 @@
       git config --global user.name “Username”
       git config --global user.email “Email”
       ```
-      Username = nama akun Github kalian, Email = email yang kalian pakai untuk Github
+      > Username = nama akun Github kalian, Email = email yang kalian pakai untuk Github
    2. Buat download project Bootcamp
       ```
       git clone https://github.com/ClaudyaSalim/BNCC-Java-Bootcamp-2024.git
