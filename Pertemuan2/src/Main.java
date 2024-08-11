@@ -46,7 +46,7 @@ public class Main {
 			System.out.println();
 			// setelah ini i nya nambah, loop j nya dijalanin lagi
 		}
-		
+		System.out.println();
 		
 		// dynamic array
 		
@@ -59,11 +59,13 @@ public class Main {
 		listQuote.add("Love yourself"); // index 3
 //		System.out.println("Panjang dari list quote setelah add: " + listQuote.size()); // panjang dari vector
 //		listQuote.remove(2); // di comment biar ga bikin bingung
-//		for(String quote:listQuote) {
-//			System.out.println(quote);
-//		}
+		for(String quote:listQuote) {
+			System.out.println(quote);
+		}
 //		System.out.println(listQuote.size()); // ukuran setelah diremove
-		System.out.println(listQuote.get(0)); // mendapatkan quote di array index 0
+		listQuote.set(0, "Don't give up"); // buat ganti isi dari array (index, nilai baru)
+		System.out.println("Quote setelah diganti: " + listQuote.get(0)); // mendapatkan quote di array index 0
+		System.out.println();
 		
 		double random = Math.random(); // 0.0 - 0.9999999
 		System.out.println(random);
@@ -105,6 +107,7 @@ public class Main {
 		System.out.println(str.toUpperCase()); // bikin jadi huruf besar semua
 		
 		System.out.println(str.contains(" ")); // cek apakah string punya karakter tersebut
+		System.out.println();
 				
 		
 		// Math
@@ -119,6 +122,7 @@ public class Main {
 		System.out.println(Math.tan(pi/3));
 		System.out.println(Math.sqrt(4)); // akar 2
 		System.out.println(Math.abs(-5)); // absolut -> mengubah semua nilai menjadi positif
+		System.out.println();
 	}
 	
 

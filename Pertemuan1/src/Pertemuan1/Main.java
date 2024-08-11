@@ -26,6 +26,23 @@ public class Main {
 		
 		System.out.println(angka2);
 		
+		// printf -> buat print dalam format tertentu 
+		// simbol utk printf:
+			// char -> %c
+			// string -> %s
+			// float / double -> %f
+			// integer -> %d
+			// boolean -> %b
+			// enter -> \n
+		System.out.printf("%.2f\n", angkaDesimal); // print 2 angka di belakang desimal + ENTER
+		System.out.printf("%.4f\n", pembagian); // print 4 angka di belakang desimal + ENTER
+		String str1 = "Bootcamp"; String str2 = "Java";
+		System.out.printf("%s\n", str1); // print string + ENTER
+		System.out.printf("%-10s|%10s\n", str1, str2);  // print 2 string dipisah dengan |, ditambah ENTER di akhir
+		// string pertama (%-10s) nambah 2 kali tab di belakang, string kedua (%10s) nambah 6 kali tab di depan
+		// cara hitung jumlah tab = angka sebelum simbol string (atau simbol printf lain) - jumlah karakter string
+		// kalau negatif tambah tab setelah string, kalau positif tambah tab sebelum string	
+		
 		display();
 		
 		selection(); // -> buat selection
