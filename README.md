@@ -40,3 +40,5 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 PPT Pertemuan 1: https://www.figma.com/deck/fUA2k2ZzoB1mY5hTd30bZF/Pertemuan-1?node-id=1-59
 
 PPT Pertemuan 2: https://www.figma.com/deck/poebgcon9qUEYtcJx3iTGc/Pertemuan-2?node-id=1-12
+
+PPT Pertemuan 3: https://www.figma.com/deck/zIgxKPvmTVVXXrf7HvZX5f/Pertemuan-3?node-id=1-10
