@@ -42,3 +42,5 @@ PPT Pertemuan 1: https://www.figma.com/deck/fUA2k2ZzoB1mY5hTd30bZF/Pertemuan-1?n
 PPT Pertemuan 2: https://www.figma.com/deck/poebgcon9qUEYtcJx3iTGc/Pertemuan-2?node-id=1-12
 
 PPT Pertemuan 3: https://www.figma.com/deck/zIgxKPvmTVVXXrf7HvZX5f/Pertemuan-3?node-id=1-10
+
+PPT Pertemuan 4: https://www.figma.com/deck/MO1qF39MRZ9qgwkRG4f5AK/Pertemuan-4?node-id=1-62
