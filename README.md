@@ -28,10 +28,18 @@
 Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kalian harus **download lagi**
 
 
-## Cara Buka Project
+## Cara Buka Project (1)
 1. Buka workspace Eclipse dari folder project tersebut
 2. Klik **File -> Open Projects from File System**
 3. Sesuaikan **Import Source** dengan workspace yang dibuka dengan klik **Directory**
+4. Pastikan folder project yang ditemukan **dicentang semua**
+5. Klik **Finish**
+
+
+## Cara Buka Project (2)
+1. Buka workspace Eclipse dari folder project tersebut
+2. Klik **File -> Import... -> General -> Existing Projects into Workspace**
+3. Sesuaikan **Root Directory** dengan workspace yang dibuka dengan klik **Browse**
 4. Pastikan folder project yang ditemukan **dicentang semua**
 5. Klik **Finish**
 
@@ -45,4 +53,4 @@ PPT Pertemuan 3: https://www.figma.com/deck/zIgxKPvmTVVXXrf7HvZX5f/Pertemuan-3?n
 
 PPT Pertemuan 4: https://www.figma.com/deck/MO1qF39MRZ9qgwkRG4f5AK/Pertemuan-4?node-id=1-62
 
-PPT Pertemuan 5: https://www.figma.com/deck/C3DRwRfcnQNVew05xje6Fh/Pertemuan-5-%26-6?node-id=4-10
+PPT Pertemuan 5 & 6: https://www.figma.com/deck/C3DRwRfcnQNVew05xje6Fh/Pertemuan-5-%26-6?node-id=4-10
