@@ -44,6 +44,13 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 5. Klik **Finish**
 
 
+## Khusus Project Pertemuan 5-6
+1. Ikuti tahapan guideline instalasi JavaFX (dari awal jika belum install)
+2. Setelah buka project, klik **Configure Build Path -> tab Libraries -> klik ModulePath -> klik Add Library -> pilih User Library -> tambahkan library JavaFX yang sudah kalian buat sebelumnya**
+3. Klik **Add External JARs** dan pilih file **.jar dari JFXtras** yang kalian download di **PPT Pertemuan 5 & 6**
+4. Klik **Apply and Close**
+
+
 ## Link PPT
 PPT Pertemuan 1: https://www.figma.com/deck/fUA2k2ZzoB1mY5hTd30bZF/Pertemuan-1?node-id=1-59
 
