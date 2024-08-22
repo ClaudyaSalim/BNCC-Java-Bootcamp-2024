@@ -29,7 +29,7 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 
 
 ## Cara Buka Project (1)
-1. Buka workspace Eclipse dari folder project tersebut
+1. Buka workspace Eclipse dari folder project tersebut (**BNCC-Java-Bootcamp-2024**)
 2. Klik **File -> Open Projects from File System**
 3. Sesuaikan **Import Source** dengan workspace yang dibuka dengan klik **Directory**
 4. Pastikan folder project yang ditemukan **dicentang semua**
@@ -37,7 +37,7 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 
 
 ## Cara Buka Project (2)
-1. Buka workspace Eclipse dari folder project tersebut
+1. Buka workspace Eclipse dari folder project tersebut (**BNCC-Java-Bootcamp-2024**)
 2. Klik **File -> Import... -> General -> Existing Projects into Workspace**
 3. Sesuaikan **Root Directory** dengan workspace yang dibuka dengan klik **Browse**
 4. Pastikan folder project yang ditemukan **dicentang semua**
@@ -46,9 +46,15 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 
 ## Khusus Project Pertemuan 5-6
 1. Ikuti tahapan guideline instalasi JavaFX (dari awal jika belum install)
-2. Setelah buka project, klik **Configure Build Path -> tab Libraries -> klik ModulePath -> klik Add Library -> pilih User Library -> tambahkan library JavaFX yang sudah kalian buat sebelumnya**
-3. Klik **Add External JARs** dan pilih file **.jar dari JFXtras** yang kalian download di **PPT Pertemuan 5 & 6**
-4. Klik **Apply and Close**
+2. Setelah buka project, klik kanan di folder projectnya
+3. Pilih **Build Path -> Configure Build Path -> tab Libraries -> klik ModulePath -> klik Add Library -> pilih User Library -> tambahkan library JavaFX yang sudah kalian buat sebelumnya**
+4. Jika **belum** buat library JavaFX, silakan ikut cara instalasi disini **https://bit.ly/GuidelineInstalasiSoftwareJavaFx** bagian **D. Create User Library** dan lakukan step 3
+5. Khusus project **Pertemuan 6**, klik **Add External JARs** dan pilih file **.jar dari JFXtras** yang kalian download di **PPT Pertemuan 5 & 6**
+   > Harusnya bentuk librariesnya akan seperti ini
+   
+   ![image](https://github.com/user-attachments/assets/2265a208-f72b-43f1-9a08-ebfb4685625b)
+
+6. Klik **Apply and Close**
 
 
 ## Link PPT
