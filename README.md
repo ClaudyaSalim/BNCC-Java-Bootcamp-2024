@@ -53,12 +53,12 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
    > Harusnya bentuk librariesnya akan seperti ini
    
    ![image](https://github.com/user-attachments/assets/2265a208-f72b-43f1-9a08-ebfb4685625b)
-
-6.Khusus project **Pertemuan 7**, klik **Add External JARs** dan pilih file **.jar untuk MySQL Connector** yang kalian download di **PPT Pertemuan 7**
+   
+6. Khusus project **Pertemuan 7**, klik **Add External JARs** dan pilih file **.jar untuk MySQL Connector** yang kalian download di **PPT Pertemuan 7**
 7. Klik **Apply and Close**
 
 
-## Notes tambahan untuk Pertemuan 7
+### Notes tambahan untuk Pertemuan 7
 - Kalian harus menyalakan XAMPP setiap kali sebelum run.
 - Kalian harus buat database dengan struktur yang sama (tabel untuk menu, atributnya ada id, nama, kategori, harga).
 - Kalian harus setting detail database nya di file Database.java sesuai dengan detail XAMPP dan database yang kalian buat.
