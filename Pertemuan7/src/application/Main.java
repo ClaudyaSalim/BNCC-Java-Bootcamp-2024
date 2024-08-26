@@ -13,7 +13,7 @@ import javafx.scene.layout.BorderPane;
 public class Main extends Application {
 	
 	Scanner scanner = new Scanner(System.in);
-	Database db = new Database();
+	Database db = new Database(); // akses konten dari class Database dgn bikin object
 	
 	public Main() {
 		
@@ -70,18 +70,20 @@ public class Main extends Application {
 		System.out.print("Input menu id: ");
 		id = scanner.nextLine();
 		
-		Menu newMenu = new Menu(id, name, category, price);
+		Menu newMenu = new Menu(id, name, category, price); // bikin object menu dari hasil input
 		
-		db.insert(newMenu);
+		db.insert(newMenu); // panggil method insert dari object class Database yg dibuat & passing object menu
 	}
 	
 	
 	public void view() {
-		ResultSet rs = db.select();
+		ResultSet rs = db.select(); // bikin result set sama dengan result set dari method select class Database
 		try {
-			while(rs.next()) {
+			while(rs.next()) { // selama masih ada barisan berikutnya di tabel
+				// get nilai berdasarkan nama & tipe data kolomnya, simpan dalam array tipe Object
 				Object[]barisan = {rs.getString("id"), rs.getString("name"), 
 						rs.getString("category"), rs.getInt("price")};
+				// print nilainya
 				System.out.println(barisan[0] +  "-" + barisan[1]);
 				System.out.println(barisan[2]);
 				System.out.println("Price: " + barisan[3]);
@@ -94,10 +96,13 @@ public class Main extends Application {
 	
 	
 	public void update() {
+		
+		// input id
 		String id;
 		System.out.print("Input menu id: ");
 		id = scanner.nextLine();
 		
+		// input detail menu baru
 		String name; String category; int price;
 		System.out.println("Input update menu: ");
 		System.out.print("Menu name: ");
@@ -107,8 +112,8 @@ public class Main extends Application {
 		System.out.print("Menu price: ");
 		price = scanner.nextInt(); scanner.nextLine();
 		
-		Menu updatedMenu = new Menu(id, name, category, price);
-		db.update(updatedMenu);
+		Menu updatedMenu = new Menu(id, name, category, price); // bikin menu dengan data terbaru
+		db.update(updatedMenu); // panggil method update dari class Database & passing object menu
 	}
 	
 	
@@ -117,7 +122,7 @@ public class Main extends Application {
 		System.out.print("Input menu id: ");
 		id = scanner.nextLine();
 		
-		db.delete(id);
+		db.delete(id); // panggil method update dari class Database & passing id menu
 	}
 	
 	
