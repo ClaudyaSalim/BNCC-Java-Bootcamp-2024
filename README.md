@@ -44,7 +44,7 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
 5. Klik **Finish**
 
 
-## Khusus Project Pertemuan 5-6
+## Khusus Project Pertemuan 5-7
 1. Ikuti tahapan guideline instalasi JavaFX (dari awal jika belum install) **https://bit.ly/GuidelineInstalasiSoftwareJavaFx**
 2. Setelah buka project, klik kanan di folder projectnya
 3. Pilih **Build Path -> Configure Build Path -> tab Libraries -> klik ModulePath -> klik Add Library -> pilih User Library -> tambahkan library JavaFX yang sudah kalian buat sebelumnya**
@@ -54,7 +54,14 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
    
    ![image](https://github.com/user-attachments/assets/2265a208-f72b-43f1-9a08-ebfb4685625b)
 
-6. Klik **Apply and Close**
+6.Khusus project **Pertemuan 7**, klik **Add External JARs** dan pilih file **.jar untuk MySQL Connector** yang kalian download di **PPT Pertemuan 7**
+7. Klik **Apply and Close**
+
+
+## Notes tambahan untuk Pertemuan 7
+- Kalian harus menyalakan XAMPP setiap kali sebelum run.
+- Kalian harus buat database dengan struktur yang sama (tabel untuk menu, atributnya ada id, nama, kategori, harga).
+- Kalian harus setting detail database nya di file Database.java sesuai dengan detail XAMPP dan database yang kalian buat.
 
 
 ## Link PPT
@@ -67,3 +74,5 @@ PPT Pertemuan 3: https://www.figma.com/deck/zIgxKPvmTVVXXrf7HvZX5f/Pertemuan-3?n
 PPT Pertemuan 4: https://www.figma.com/deck/MO1qF39MRZ9qgwkRG4f5AK/Pertemuan-4?node-id=1-62
 
 PPT Pertemuan 5 & 6: https://www.figma.com/deck/C3DRwRfcnQNVew05xje6Fh/Pertemuan-5-%26-6?node-id=4-10
+
+PPT Pertemuan 7: https://www.figma.com/deck/f1naizLftBeda238jrZZuL/Pertemuan-7?node-id=1-62
