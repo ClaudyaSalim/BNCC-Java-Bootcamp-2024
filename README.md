@@ -55,6 +55,10 @@ Cukup dengan klik tombol **Code -> Download ZIP**, tapi di update berikutnya kal
    ![image](https://github.com/user-attachments/assets/2265a208-f72b-43f1-9a08-ebfb4685625b)
    
 6. Khusus project **Pertemuan 7**, klik **Add External JARs** dan pilih file **.jar untuk MySQL Connector** yang kalian download di **PPT Pertemuan 7**
+   > Harusnya bentuk librariesnya akan seperti ini
+
+   ![image](https://github.com/user-attachments/assets/74904827-cda9-46c8-b8ec-fca9b6c6f56b)
+
 7. Klik **Apply and Close**
 
 
