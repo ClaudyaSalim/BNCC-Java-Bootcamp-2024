@@ -1,4 +1,4 @@
-package application;
+package application.controller;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,19 +7,21 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import application.model.Menu;
+
 public class Database {
-	
+
 	Connection con; // buat connect ke database
 	Statement s; // query langsung di 1 baris
 	PreparedStatement ps; // query yg disiapkan dulu sebelum dijalankan
 	ResultSet rs; // menampung hasil data yg didapatkan dari query
 
-	
+
 	public Database() {
 		connect(); // panggil method pas class Database dipanggil
 	}
-	
-	
+
+
 	public void connect() {
 		// cek apakah drivernya ada
 		try {
@@ -27,7 +29,7 @@ public class Database {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-		
+
 		// connect ke database kita
 		String url = "jdbc:mysql://localhost:3306/bncc_bootcamp_pert7"; // disesuaikan lagi dengan database yang kalian buat
 		String username = "root"; // kalau default
@@ -39,10 +41,10 @@ public class Database {
 			e.printStackTrace();
 		}
 	}
-	
-	
+
+
 	// pastikan query yg kalian tulis disini sama dengan struktur database kalian & wajib exception handling
-	
+
 	public void insert(Menu menu) { // masukkan data ke database
 		try {
 			ps = con.prepareStatement("insert into menu (id, name, category, price) values (?, ?, ?, ?)"); // tulis querynya dulu, '?' buat menandakan nilainya
@@ -56,8 +58,8 @@ public class Database {
 			e.printStackTrace();
 		}
 	}
-	
-	
+
+
 	public ResultSet select() { // lihat dgn terima data dari database
 		try {
 			rs = s.executeQuery("select * from menu"); // langsung tulis & jalanin query, simpan ke result set
@@ -66,8 +68,8 @@ public class Database {
 		}
 		return rs;
 	}
-	
-	
+
+
 	public void update(Menu menu) { // update data di database
 		try {
 			ps = con.prepareStatement("update menu set name = ?, category = ?, price = ? where id = ?"); // tulis querynya dulu, '?' buat menandakan nilainya
@@ -81,8 +83,8 @@ public class Database {
 			e.printStackTrace();
 		}
 	}
-	
-	
+
+
 	public void delete(String id) { // delete data dari database
 		try {
 			ps = con.prepareStatement("delete from menu where id=?"); // tulis querynya dulu, '?' buat menandakan nilainya

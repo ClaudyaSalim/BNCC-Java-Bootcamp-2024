@@ -1,13 +1,13 @@
-package application;
+package pert7_part1;
 
-public class Menu { // buat bikin objectnya
-	
+public class MenuTest { // buat bikin objectnya
+
 	private String id;
 	private String name;
 	private String category;
 	private int price;
 
-	public Menu(String id, String name, String category, int price) {
+	public MenuTest(String id, String name, String category, int price) {
 		this.id = id;
 		this.name = name;
 		this.category = category;
@@ -45,7 +45,7 @@ public class Menu { // buat bikin objectnya
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
-	
+
+
 
 }
