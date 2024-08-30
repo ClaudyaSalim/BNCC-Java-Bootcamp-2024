@@ -80,3 +80,5 @@ PPT Pertemuan 4: https://www.figma.com/deck/MO1qF39MRZ9qgwkRG4f5AK/Pertemuan-4?n
 PPT Pertemuan 5 & 6: https://www.figma.com/deck/C3DRwRfcnQNVew05xje6Fh/Pertemuan-5-%26-6?node-id=4-10
 
 PPT Pertemuan 7: https://www.figma.com/deck/f1naizLftBeda238jrZZuL/Pertemuan-7?node-id=1-62
+
+PPT Pertemuan 8: https://www.figma.com/deck/hGAxr9utBa5T7iseHK1GPe/Pertemuan-8?node-id=3-16&t=yhgBYnw9tiBVqJs6
