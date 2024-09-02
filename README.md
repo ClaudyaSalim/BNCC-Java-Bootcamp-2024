@@ -87,7 +87,7 @@ PPT Pertemuan 8: https://www.figma.com/deck/hGAxr9utBa5T7iseHK1GPe/Pertemuan-8?n
 Boleh coba simak link ini ya teman-teman https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
 1. **Bikin akun Github** -> di home klik tombol **New** warna hijau untuk bikin link repository baru
 2. **Kasih nama repository**, pastikan **opsi** yang dipilih adalah **Public**, lalu klik tombol **Create Repository**
-3. Buka **command prompt/terminal** dan pastikan directory yang ditampilkan adalah tempat simpan project nya
+3. Buka **command prompt/terminal** dan pastikan directory yang ditampilkan adalah tempat kalian simpan project nya
 4. Kalian hanya perlu **copy paste code ini**
    ```
    git init
@@ -98,5 +98,6 @@ Boleh coba simak link ini ya teman-teman https://gist.github.com/mindplace/b4b09
    git push -u origin main
    ```
    > Jangan lupa **sesuaikan link repository** dengan yang kalian buat, kalian hanya perlu copy dari web addressnya
+   
    > Untuk pesan commit nya bebas dari kalian
 5. **Refresh** dan **copy** web address untuk dikumpulkan
