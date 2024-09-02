@@ -82,3 +82,21 @@ PPT Pertemuan 5 & 6: https://www.figma.com/deck/C3DRwRfcnQNVew05xje6Fh/Pertemuan
 PPT Pertemuan 7: https://www.figma.com/deck/f1naizLftBeda238jrZZuL/Pertemuan-7?node-id=1-62
 
 PPT Pertemuan 8: https://www.figma.com/deck/hGAxr9utBa5T7iseHK1GPe/Pertemuan-8?node-id=3-16&t=yhgBYnw9tiBVqJs6
+
+## Upload Project ke Github
+Boleh coba simak link ini ya teman-teman https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
+1. **Bikin akun Github** -> di home klik tombol **New** warna hijau untuk bikin link repository baru
+2. **Kasih nama repository**, pastikan **opsi** yang dipilih adalah **Public**, lalu klik tombol **Create Repository**
+3. Buka **command prompt/terminal** dan pastikan directory yang ditampilkan adalah tempat simpan project nya
+4. Kalian hanya perlu **copy paste code ini**
+   ```
+   git init
+   git add README.md
+   git commit -m "[Pesan commit kamu]"
+   git branch -M main
+   git remote add origin [link repository kalian]
+   git push -u origin main
+   ```
+   > Jangan lupa **sesuaikan link repository** dengan yang kalian buat, kalian hanya perlu copy dari web addressnya
+   > Untuk pesan commit nya bebas dari kalian
+5. **Refresh** dan **copy** web address untuk dikumpulkan
