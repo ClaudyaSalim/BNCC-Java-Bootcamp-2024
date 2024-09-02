@@ -84,7 +84,7 @@ PPT Pertemuan 7: https://www.figma.com/deck/f1naizLftBeda238jrZZuL/Pertemuan-7?n
 PPT Pertemuan 8: https://www.figma.com/deck/hGAxr9utBa5T7iseHK1GPe/Pertemuan-8?node-id=3-16&t=yhgBYnw9tiBVqJs6
 
 ## Upload Project ke Github
-Sebelumnya teman-teman **install dan setup Git** dulu ya. Kalian bisa lihat panduan diatas bagian **[Cara Download Project -> Dengan Git](https://git-scm.com/downloads)**, dan **ikuti sampai tahap 3.1**.
+Sebelumnya teman-teman **install dan setup Git** dulu ya. Kalian bisa lihat panduan diatas bagian **[Cara Download Project -> Dengan Git](https://github.com/ClaudyaSalim/BNCC-Java-Bootcamp-2024/blob/main/README.md#1-dengan-git)**, dan **ikuti sampai tahap 3.1**.
 
 Setelah itu boleh coba simak link ini ya teman-teman https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
 1. Di halaman utama sidebar "Top Repositories", klik tombol **New** warna hijau untuk bikin link repository baru
